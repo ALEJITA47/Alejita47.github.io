@@ -4,34 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Héroes</title>
-    <!-- Agregamos Bootstrap desde CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+
+    </style>
 </head>
 <body>
+    
 
-    <!-- fondo de la paginas  -->
-  <!--  para fondo con imagen url
-    <style>
-        body {
-            background-image: url('https://wallpapers.com/images/hd/blue-iphone-1284-x-2778-background-b5q0kf6v9jftxirz.jpg'); 
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 100vh;
-        }
-    </style>
-    -->
+    <body class="bg-info ">
 
-    <!-- fondo de la paginas color solido -->
-<body class="bg-primary bg-dark">
-
- 
-    <!-- cards -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Los Avengers, los mejores superhéroes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menú
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                  <li><a class="dropdown-item" href="Historia de los Avengers.html">Historia de los Avengers</a></li>
+                  <li><a class="dropdown-item" href="Personaje favorito.html">Personaje favorito</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <p class="h1 text-center">LOS 10 MEJORES HÉROES DE LOS VENGADORES</p>
 
     <div class="container mt-4">
         <div class="row justify-content-center">
-            
-            <!-- Iron Man -->
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img src="img/iron_man.png" class="card-img-top" alt="Iron Man">
@@ -40,8 +49,6 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- Hulk -->
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img src="img/hulk-min.png" class="card-img-top" alt="Hulk">
@@ -50,8 +57,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Thor -->
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img src="img/thor.png" class="card-img-top" alt="Thor">
@@ -60,8 +65,6 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- Ant-Man -->
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img src="img/antman.jpg" class="card-img-top" alt="Ant-Man">
@@ -70,8 +73,6 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- Wasp -->
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img src="img/avispa.jpg" class="card-img-top" alt="Wasp">
@@ -80,8 +81,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Capitán América -->
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img src="img/capitan_america.png" class="card-img-top" alt="Capitán América">
@@ -90,8 +89,6 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- Black Widow -->
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img src="img/black widow.png" class="card-img-top" alt="Black Widow">
@@ -100,8 +97,6 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- Hawkeye -->
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img src="img/hawkeye.png" class="card-img-top" alt="Hawkeye">
@@ -110,8 +105,6 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- Spider-Man -->
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img src="img/spider-man.png" class="card-img-top" alt="Spider-Man">
@@ -120,8 +113,6 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- Capitana Marvel -->
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img src="img/capitana-marvel-.png" class="card-img-top" alt="Capitana Marvel">
@@ -132,8 +123,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Agregamos Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
